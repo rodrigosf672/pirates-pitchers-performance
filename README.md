@@ -123,13 +123,13 @@ Based on the analysis and outputs generated from the project, the following conc
 1. **Pitcher Performance Correlation**: Pitchers with a lower ERA (<3.5) generally had higher strikeout rates and lower WHIP values, indicating strong performance in preventing runs and managing base runners.
 2. **Physical Attributes vs. Performance**: Age and height did not show a significant correlation with overall pitching performance, while weight had a moderate positive correlation with innings pitched, suggesting heavier pitchers tend to pitch longer.
 3. **Feature Importance**: The Random Forest classifier identified WHIP and strikeouts as the most important factors in classifying high vs. low performers, with WHIP having the strongest influence.
-4. **Classification Accuracy**: The binary classification model achieved an accuracy of XX%, indicating that the model performs reasonably well in distinguishing between high and low performers based on the selected features.
+4. **Classification**: The binary classification model herein reported aimed to establish a baseline for future analyses, hence why maximum accuracy was achieved. In the future, adding data from other pitchers would be helpful to determine the classification accuracy of this model. It is also relevant to consider that the data used here was from 10 pitchers only, which is very limiting. 
 5. **Areas for Improvement**: Further enhancements could include integrating more advanced metrics, such as pitch velocity and type, to improve classification accuracy and gain deeper insights into performance drivers.
 These conclusions provide valuable insights into the factors influencing pitcher performance for the Pittsburgh Pirates, which can be useful for player development and decision-making in team management.
 
 ## Future Enhancements
 - Integrate additional pitcher performance metrics such as pitch type and velocity.
-- Experiment with more advanced machine learning models like XGBoost or SVM to improve classification accuracy.
+- Upon introduction of additional data and determination of classification accuracy, it could be helpful to experiment with more advanced machine learning models like XGBoost or SVM to improve classification accuracy.
 - Add time-series forecasting to predict future pitcher performance based on historical data.
 
 ## How to Contribute
